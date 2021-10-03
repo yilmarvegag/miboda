@@ -665,6 +665,19 @@ html,body{
 		line-height:150% !important;
 	}
 
+
+.wp-follow {
+    position: absolute;
+    z-index: 100;
+    padding: 30px;
+}
+
+.wp-follow img {
+    width: 70px;
+    position: fixed;
+    z-index: 100;
+    bottom: 25px;
+}
 }	@media only screen and (max-width: 480px){
 	.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p,.mcnTemplatePageBanner{
 		font-size:20px !important;
@@ -677,4 +690,22 @@ html,body{
 		line-height:150% !important;
 	}
 
+}
+
+.wp-follow {
+    position: absolute;
+    z-index: 100;
+    padding: 30px;
+}
+
+.wp-follow a {
+    color: #ff4652;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wp-follow img {
+    width: 70px;
+    position: fixed;
+    z-index: 100;
+    bottom: 25px;
 }
