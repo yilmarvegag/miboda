@@ -709,3 +709,37 @@ html,body{
     z-index: 100;
     bottom: 25px;
 }
+
+/**links flys*/
+svg:not(:root) {
+    overflow: hidden;
+}
+.Logo_Logo__svg__32X6f {
+    vertical-align: top;
+    fill: #0770e3;
+    width: 10.98958rem;
+    height: 1.875rem;
+}
+
+.Logo_Logo__3dyjM {
+    display: inline-block;
+}
+#flying a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+/*momondo*/
+.main-logo__logo.has-compact-logo {
+    height: 20px;
+    width: 130px;
+}
+
+
+.row:before, .row:after{
+    display: table;
+    content: " ";
+    clear:both
+}
+
+/**links flys*/
